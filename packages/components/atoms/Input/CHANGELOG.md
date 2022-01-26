@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.13.0 (2022-01-26)
+
+
+### Features
+
+* **input:** break ([1731cfb](https://github.com/har-sargis/lerna/commit/1731cfbaf6bae3f234116902abe0e31160e77af2))
+
+
+
+## 1.12.1 (2022-01-26)
+
+
+
+
+
 ## [1.12.1](https://github.com/har-sargis/lerna/compare/v1.12.0...v1.12.1) (2022-01-26)
 
 **Note:** Version bump only for package @aassaass/input
