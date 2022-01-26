@@ -1,0 +1,51 @@
+{
+  "name": "@picsart/design-system",
+  "description": "",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/har-sargis/lerna.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/har-sargis/lerna/issues"
+  },
+  "homepage": "https://github.com/har-sargis/lerna#readme",
+  "private": true,
+  "scripts": {
+    "host:deps": "lerna link convert",
+    "bump:versions": "lerna version --conventional-commits",
+    "create": "lerna create $npm_config_name $npm_config_path",
+    "clean": "lerna clean",
+    "command": "lerna run $npm_config_command",
+    "show:changed": "lerna changed",
+    "bootstrap": "lerna bootstrap",
+    "hoist:packages": "lerna bootstrap --hoist"
+  },
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "lerna": "^4.0.0"
+  },
+  "publishConfig": {
+    "directory": "dist"
+  },
+  "dependencies": {
+    "@picsart/accordion": "file:packages/components/molecules/Accordion",
+    "@picsart/button": "file:packages/components/atoms/Button",
+    "@picsart/input": "file:packages/components/atoms/Input",
+    "@piczart/modal": "file:packages/components/molecules/Modal"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "packages": [
+    "packages/components/*",
+    "packages/components/atoms/*",
+    "packages/components/molecules/*",
+    "packages/components/organisms/*",
+    "packages/services/*",
+    "packages/helpers/*",
+    "packages/cascade/*"
+  ],
+  "version": "1.0.0",
+  "npmClient": "npm",
+  "Command": {
+    "publish": {
+      "ignoreChanges": [
+        "ignored-file",
+        "*.md"
+      ]
+    },
+    "bootstrap": {
+      "npmClientArgs": [
+        "--no-package-lock"
+      ]
+    }
+  }
+}
