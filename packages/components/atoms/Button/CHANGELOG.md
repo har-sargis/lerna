@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.8.0](https://github.com/har-sargis/lerna/compare/@picsart/button@1.7.0...@picsart/button@1.8.0) (2022-01-26)
+
+
+### Features
+
+* **button:** new feature ([af91ad4](https://github.com/har-sargis/lerna/commit/af91ad41510c4118108b1a6b9974f746ccbad436))
+
+
+
+
+
 # [1.7.0](https://github.com/har-sargis/lerna/compare/@picsart/button@1.6.0...@picsart/button@1.7.0) (2022-01-26)
 
 
