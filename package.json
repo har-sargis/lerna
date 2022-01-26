@@ -15,7 +15,7 @@
   "private": true,
   "scripts": {
     "host:deps": "lerna link convert",
-    "bump:versions": "cross-env HUSKY=0 lerna version --force-publish --conventional-commits --yes -m 'chore(release): publish %s'",
+    "bump:versions": "cross-env HUSKY=0 lerna version --conventional-commits --yes -m 'chore(release): publish %s'",
     "create": "lerna create $npm_config_name $npm_config_path",
     "clean": "lerna clean",
     "command": "lerna run $npm_config_command",
