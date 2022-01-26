@@ -24,8 +24,8 @@
 15 verbose updated @picsart/input
 16 verbose updated @picsart/accordion
 17 verbose updated @picsart/modal
-18 verbose git-describe undefined => "e8c33ca"
-19 silly git-describe parsed => {"refCount":"8","sha":"e8c33ca","isDirty":false}
+18 verbose git-describe undefined => "c6914e0"
+19 silly git-describe parsed => {"refCount":"9","sha":"c6914e0","isDirty":false}
 20 silly independent for @picsart/button at /Users/sargis/Desktop/lerna-repo/packages/components/atoms/Button
 21 verbose getChangelogConfig using preset "conventional-changelog-angular"
 22 silly npa Result {
@@ -45,13 +45,13 @@
 22 silly npa }
 23 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
 24 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
-25 verbose independent increment 1.3.0 by minor
+25 verbose independent increment 1.4.0 by minor
 26 silly independent for @picsart/input at /Users/sargis/Desktop/lerna-repo/packages/components/atoms/Input
-27 verbose independent increment 1.0.3 by patch
+27 verbose independent increment 1.0.4 by patch
 28 silly independent for @picsart/accordion at /Users/sargis/Desktop/lerna-repo/packages/components/molecules/Accordion
-29 verbose independent increment 1.0.3 by patch
+29 verbose independent increment 1.0.4 by patch
 30 silly independent for @picsart/modal at /Users/sargis/Desktop/lerna-repo/packages/components/molecules/Modal
-31 verbose independent increment 1.0.3 by patch
+31 verbose independent increment 1.0.4 by patch
 32 info auto-confirmed
 33 info execute Skipping releases
 34 silly lifecycle No script for "preversion" in "@picsart/design-system", continuing
@@ -67,14 +67,14 @@
 44 silly independent for @picsart/input at /Users/sargis/Desktop/lerna-repo/packages/components/atoms/Input
 45 silly lifecycle No script for "version" in "@picsart/modal", continuing
 46 silly independent for @picsart/modal at /Users/sargis/Desktop/lerna-repo/packages/components/molecules/Modal
-47 silly independent writing new entry: "## 1.0.4 (2022-01-26)\n\n**Note:** Version bump only for package @picsart/accordion\n\n\n\n"
-48 silly independent writing new entry: "# 1.4.0 (2022-01-26)\n\n\n### Features\n\n* **components/atoms:** add feature to button ([90a1384](https://github.com/har-sargis/lerna/commit/90a1384e04fa92286d88c3fe785e654d1ad9c714))\n\n\n\n"
-49 silly independent writing new entry: "## 1.0.4 (2022-01-26)\n\n**Note:** Version bump only for package @picsart/input\n\n\n\n"
-50 silly independent writing new entry: "## 1.0.4 (2022-01-26)\n\n**Note:** Version bump only for package @picsart/modal\n\n\n\n"
+47 silly independent writing new entry: "## 1.0.5 (2022-01-26)\n\n**Note:** Version bump only for package @picsart/accordion\n\n\n\n"
+48 silly independent writing new entry: "## 1.0.5 (2022-01-26)\n\n**Note:** Version bump only for package @picsart/modal\n\n\n\n"
+49 silly independent writing new entry: "## 1.0.5 (2022-01-26)\n\n**Note:** Version bump only for package @picsart/input\n\n\n\n"
+50 silly independent writing new entry: "# 1.5.0 (2022-01-26)\n\n\n### Features\n\n* **components/atoms:** add feature to button ([90a1384](https://github.com/har-sargis/lerna/commit/90a1384e04fa92286d88c3fe785e654d1ad9c714))\n\n\n\n"
 51 verbose independent wrote /Users/sargis/Desktop/lerna-repo/packages/components/molecules/Accordion/CHANGELOG.md
 52 verbose independent wrote /Users/sargis/Desktop/lerna-repo/packages/components/atoms/Input/CHANGELOG.md
-53 verbose independent wrote /Users/sargis/Desktop/lerna-repo/packages/components/atoms/Button/CHANGELOG.md
-54 verbose independent wrote /Users/sargis/Desktop/lerna-repo/packages/components/molecules/Modal/CHANGELOG.md
+53 verbose independent wrote /Users/sargis/Desktop/lerna-repo/packages/components/molecules/Modal/CHANGELOG.md
+54 verbose independent wrote /Users/sargis/Desktop/lerna-repo/packages/components/atoms/Button/CHANGELOG.md
 55 silly lifecycle No script for "version" in "@picsart/design-system", continuing
 56 silly gitAdd [
 56 silly gitAdd   'packages/components/molecules/Accordion/package.json',
@@ -83,42 +83,32 @@
 56 silly gitAdd   'packages/components/molecules/Modal/package.json',
 56 silly gitAdd   'packages/components/molecules/Accordion/CHANGELOG.md',
 56 silly gitAdd   'packages/components/atoms/Input/CHANGELOG.md',
-56 silly gitAdd   'packages/components/atoms/Button/CHANGELOG.md',
-56 silly gitAdd   'packages/components/molecules/Modal/CHANGELOG.md'
+56 silly gitAdd   'packages/components/molecules/Modal/CHANGELOG.md',
+56 silly gitAdd   'packages/components/atoms/Button/CHANGELOG.md'
 56 silly gitAdd ]
 57 silly gitCommit Publish
 57 silly gitCommit
-57 silly gitCommit  - @picsart/button@1.4.0
-57 silly gitCommit  - @picsart/input@1.0.4
-57 silly gitCommit  - @picsart/accordion@1.0.4
-57 silly gitCommit  - @picsart/modal@1.0.4
+57 silly gitCommit  - @picsart/button@1.5.0
+57 silly gitCommit  - @picsart/input@1.0.5
+57 silly gitCommit  - @picsart/accordion@1.0.5
+57 silly gitCommit  - @picsart/modal@1.0.5
 58 verbose git [
 58 verbose git   'commit',
 58 verbose git   '-F',
-58 verbose git   '/private/var/folders/9r/c7kmkg0s2csdfk9c02pn6_3w0000gn/T/f8cafd1d-26e8-4b84-8f30-b1b7c1139a46/lerna-commit.txt'
+58 verbose git   '/private/var/folders/9r/c7kmkg0s2csdfk9c02pn6_3w0000gn/T/7792499b-479a-494b-9a5c-6aa08e040222/lerna-commit.txt'
 58 verbose git ]
-59 error Error: Command failed with exit code 1: git commit -F /private/var/folders/9r/c7kmkg0s2csdfk9c02pn6_3w0000gn/T/f8cafd1d-26e8-4b84-8f30-b1b7c1139a46/lerna-commit.txt
+59 error Error: Command failed with exit code 1: git commit -F /private/var/folders/9r/c7kmkg0s2csdfk9c02pn6_3w0000gn/T/7792499b-479a-494b-9a5c-6aa08e040222/lerna-commit.txt
 59 error
 59 error > @picsart/design-system@1.0.0 test
 59 error > echo husky
 59 error
 59 error husky
-59 error cz-cli@4.2.4, cz-conventional-changelog@3.3.0
+59 error ⧗   input: Publish
 59 error
-59 error ? Select the type of change that you're committing: (Use arrow keys)
-59 error ❯ feat:     A new feature
-59 error   fix:      A bug fix
-59 error   docs:     Documentation only changes
-59 error   style:    Changes that do not affect the meaning of the code (white-space, for
-59 error matting, missing semi-colons, etc)
-59 error   refactor: A code change that neither fixes a bug nor adds a feature
-59 error   perf:     A code change that improves performance
-59 error (Move up and down to reveal more choices)[41D[41C⧗   input: Publish
-59 error
-59 error  - @picsart/button@1.4.0
-59 error  - @picsart/input@1.0.4
-59 error  - @picsart/accordion@1.0.4
-59 error  - @picsart/modal@1.0.4
+59 error  - @picsart/button@1.5.0
+59 error  - @picsart/input@1.0.5
+59 error  - @picsart/accordion@1.0.5
+59 error  - @picsart/modal@1.0.5
 59 error ✖   subject may not be empty [subject-empty]
 59 error ✖   type may not be empty [type-empty]
 59 error

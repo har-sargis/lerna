@@ -15,7 +15,7 @@
   "private": true,
   "scripts": {
     "host:deps": "lerna link convert",
-    "bump:versions": "lerna version --conventional-commits --yes",
+    "bump:versions": "cross-env HUSKY=0 lerna version --force-publish --conventional-commits -m 'chore(release): publish %s'",
     "create": "lerna create $npm_config_name $npm_config_path",
     "clean": "lerna clean",
     "command": "lerna run $npm_config_command",
@@ -29,6 +29,7 @@
     "@commitlint/cli": "^16.1.0",
     "@commitlint/config-conventional": "^16.0.0",
     "commitizen": "^4.2.4",
+    "cross-env": "^7.0.3",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^7.0.4",
     "lerna": "^4.0.0"
