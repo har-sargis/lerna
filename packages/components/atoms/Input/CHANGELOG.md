@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/har-sargis/lerna/compare/v1.17.0...v2.0.0) (2022-01-26)
+
+
+### Features
+
+* **input:** break ([eb0cb3f](https://github.com/har-sargis/lerna/commit/eb0cb3fe3356ffb178d2ac228d402fe007840759))
+
+
+### BREAKING CHANGES
+
+* **input:** break
+
+
+
+
+
 # [1.17.0](https://github.com/har-sargis/lerna/compare/v1.14.0...v1.17.0) (2022-01-26)
 
 
