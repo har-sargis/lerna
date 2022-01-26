@@ -1,7 +1,5 @@
-'use strict';
-
-const modal = require('..');
+// const modal = require('..');
 
 describe('Modal', () => {
-    it('needs tests');
+  it('needs tests');
 });

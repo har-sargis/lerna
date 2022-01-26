@@ -1,7 +1,5 @@
-'use strict';
-
-const input = require('..');
+// const input = require('..');
 
 describe('Input', () => {
-    it('needs tests');
+  it('needs tests');
 });

@@ -1,7 +1,5 @@
-'use strict';
-
-const header = require('..');
+// const header = require('..');
 
 describe('Header', () => {
-    it('needs tests');
+  it('needs tests');
 });

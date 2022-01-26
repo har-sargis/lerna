@@ -1,7 +1,5 @@
-'use strict';
-
 module.exports = button;
 
 function button() {
-    // TODO change feature new
+  // TODO change feature new
 }

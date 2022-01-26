@@ -1,7 +1,5 @@
-'use strict';
-
-const page = require('..');
+// const page = require('..');
 
 describe('Page', () => {
-    it('needs tests');
+  it('needs tests');
 });
