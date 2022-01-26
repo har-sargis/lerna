@@ -1,6 +1,6 @@
 {
   "name": "@picsart/modal",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "> TODO: description",
   "author": "har-sargis <har.sargis@gmail.com>",
   "homepage": "https://github.com/har-sargis/lerna/tree/main/components/molecules/Modal#readme",
@@ -24,6 +24,6 @@
     "url": "https://github.com/har-sargis/lerna/issues"
   },
   "dependencies": {
-    "@picsart/button": "^1.9.0"
+    "@picsart/button": "^1.10.0"
   }
 }

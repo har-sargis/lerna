@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.10.0](https://github.com/har-sargis/lerna/compare/@picsart/button@1.9.0...@picsart/button@1.10.0) (2022-01-26)
+
+
+### Features
+
+* **button:** breaking ([227dafa](https://github.com/har-sargis/lerna/commit/227dafa9a0f00a7f850f3928e5654a4dfa92ace6))
+* **button:** breaking feature ([cfe4725](https://github.com/har-sargis/lerna/commit/cfe4725979484e40686f39a30e2a85848000235c))
+
+
+
+
+
 # [1.9.0](https://github.com/har-sargis/lerna/compare/@picsart/button@1.8.0...@picsart/button@1.9.0) (2022-01-26)
 
 
