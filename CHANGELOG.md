@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.2.0](https://github.com/har-sargis/lerna/compare/v3.1.0...v3.2.0) (2022-01-26)
+
+
+### Features
+
+* **button:** feat ([23fbdca](https://github.com/har-sargis/lerna/commit/23fbdca3cc2073b9fa7a4f13bc806c8e2d3ea66d))
+
+
+
+
+
 # [3.1.0](https://github.com/har-sargis/lerna/compare/v3.0.0...v3.1.0) (2022-01-26)
 
 
