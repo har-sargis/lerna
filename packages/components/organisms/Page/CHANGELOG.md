@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.16.0](https://github.com/har-sargis/lerna/compare/@aassaass/page@1.15.0...@aassaass/page@1.16.0) (2022-01-26)
+
+
+### Features
+
+* **page:** break ([124a109](https://github.com/har-sargis/lerna/commit/124a10986d37cbed45bb5d5107f0349c2e9eb395))
+
+
+
+
+
 # 1.15.0 (2022-01-26)
 
 
