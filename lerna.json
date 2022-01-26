@@ -10,11 +10,14 @@
   ],
   "version": "independent",
   "npmClient": "npm",
-  "Command": {
+  "command": {
     "publish": {
       "ignoreChanges": [
         "ignored-file",
-        "*.md"
+        "*.md",
+        "**/__fixtures__/**",
+        "**/__tests__/**",
+        "**/*.md"
       ]
     },
     "bootstrap": {
