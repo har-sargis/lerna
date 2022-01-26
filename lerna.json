@@ -8,7 +8,7 @@
     "packages/helpers/*",
     "packages/cascade/*"
   ],
-  "version": "independent",
+  "version": "1.10.0",
   "npmClient": "npm",
   "command": {
     "publish": {
