@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.13.1](https://github.com/har-sargis/lerna/compare/v1.13.0...v1.13.1) (2022-01-26)
+
+
+### Bug Fixes
+
+* **page:** bug fix ([da8ed4f](https://github.com/har-sargis/lerna/commit/da8ed4fae1cd373c8ea2677b4db459492c9b0c11))
+
+
+
+
+
 # [1.13.0](https://github.com/har-sargis/lerna/compare/v1.12.1...v1.13.0) (2022-01-26)
 
 
