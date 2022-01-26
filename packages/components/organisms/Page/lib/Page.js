@@ -3,5 +3,5 @@
 module.exports = page;
 
 function page() {
-    // TODO feat new
+    // TODO feat
 }
