@@ -1,6 +1,6 @@
 {
   "name": "@picsart/page",
-  "version": "1.1.2",
+  "version": "1.12.0",
   "description": "> TODO: description",
   "author": "har-sargis <har.sargis@gmail.com>",
   "homepage": "https://github.com/har-sargis/lerna/tree/main/packages/components/organisms/Page#readme",
@@ -24,6 +24,6 @@
     "url": "https://github.com/har-sargis/lerna/issues"
   },
   "dependencies": {
-    "@picsart/modal": "^1.2.1"
+    "@picsart/modal": "^1.12.0"
   }
 }

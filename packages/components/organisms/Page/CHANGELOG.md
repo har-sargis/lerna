@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.12.0](https://github.com/har-sargis/lerna/compare/v1.11.0...v1.12.0) (2022-01-26)
+
+**Note:** Version bump only for package @picsart/page
+
+
+
+
+
 ## [1.1.2](https://github.com/har-sargis/lerna/compare/@picsart/page@1.1.1...@picsart/page@1.1.2) (2022-01-26)
 
 **Note:** Version bump only for package @picsart/page

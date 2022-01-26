@@ -1,6 +1,6 @@
 {
   "name": "@picsart/accordion",
-  "version": "1.1.1",
+  "version": "1.12.0",
   "description": "> TODO: description",
   "author": "har-sargis <har.sargis@gmail.com>",
   "homepage": "https://github.com/har-sargis/lerna/tree/main/components/molecules/Accordion#readme",
@@ -24,6 +24,6 @@
     "url": "https://github.com/har-sargis/lerna/issues"
   },
   "dependencies": {
-    "@picsart/button": "^1.10.0"
+    "@picsart/button": "^1.12.0"
   }
 }
