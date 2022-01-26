@@ -1,11 +1,11 @@
 {
-  "name": "@picsart/accordion",
-  "version": "1.0.8",
+  "name": "@picsart/page",
+  "version": "1.0.0",
   "description": "> TODO: description",
   "author": "har-sargis <har.sargis@gmail.com>",
-  "homepage": "https://github.com/har-sargis/lerna/tree/main/components/molecules/Accordion#readme",
+  "homepage": "https://github.com/har-sargis/lerna/tree/main/packages/components/organisms/Page#readme",
   "license": "ISC",
-  "main": "lib/Accordion.js",
+  "main": "lib/Page.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -24,6 +24,6 @@
     "url": "https://github.com/har-sargis/lerna/issues"
   },
   "dependencies": {
-    "@picsart/button": "^1.9.0"
+    "@picsart/modal": "^1.0.8"
   }
 }

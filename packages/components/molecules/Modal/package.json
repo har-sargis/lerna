@@ -22,5 +22,8 @@
   },
   "bugs": {
     "url": "https://github.com/har-sargis/lerna/issues"
+  },
+  "dependencies": {
+    "@picsart/button": "^1.9.0"
   }
 }
