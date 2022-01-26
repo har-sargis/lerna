@@ -2,6 +2,8 @@
 0 silly argv   _: [ 'version' ],
 0 silly argv   'conventional-commits': true,
 0 silly argv   conventionalCommits: true,
+0 silly argv   yes: true,
+0 silly argv   y: true,
 0 silly argv   lernaVersion: '4.0.0',
 0 silly argv   '$0': '/Users/sargis/Desktop/lerna-repo/node_modules/.bin/lerna'
 0 silly argv }
@@ -22,8 +24,8 @@
 15 verbose updated @picsart/input
 16 verbose updated @picsart/accordion
 17 verbose updated @picsart/modal
-18 verbose git-describe undefined => "a5b4388"
-19 silly git-describe parsed => {"refCount":"7","sha":"a5b4388","isDirty":false}
+18 verbose git-describe undefined => "e8c33ca"
+19 silly git-describe parsed => {"refCount":"8","sha":"e8c33ca","isDirty":false}
 20 silly independent for @picsart/button at /Users/sargis/Desktop/lerna-repo/packages/components/atoms/Button
 21 verbose getChangelogConfig using preset "conventional-changelog-angular"
 22 silly npa Result {
@@ -43,87 +45,88 @@
 22 silly npa }
 23 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
 24 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
-25 verbose independent increment 1.2.0 by minor
+25 verbose independent increment 1.3.0 by minor
 26 silly independent for @picsart/input at /Users/sargis/Desktop/lerna-repo/packages/components/atoms/Input
-27 verbose independent increment 1.0.2 by patch
+27 verbose independent increment 1.0.3 by patch
 28 silly independent for @picsart/accordion at /Users/sargis/Desktop/lerna-repo/packages/components/molecules/Accordion
-29 verbose independent increment 1.0.2 by patch
+29 verbose independent increment 1.0.3 by patch
 30 silly independent for @picsart/modal at /Users/sargis/Desktop/lerna-repo/packages/components/molecules/Modal
-31 verbose independent increment 1.0.2 by patch
-32 info execute Skipping releases
-33 silly lifecycle No script for "preversion" in "@picsart/design-system", continuing
-34 silly lifecycle No script for "preversion" in "@picsart/button", continuing
-35 silly lifecycle No script for "preversion" in "@picsart/input", continuing
-36 silly lifecycle No script for "preversion" in "@picsart/accordion", continuing
-37 silly lifecycle No script for "preversion" in "@picsart/modal", continuing
-38 silly lifecycle No script for "version" in "@picsart/input", continuing
-39 silly independent for @picsart/input at /Users/sargis/Desktop/lerna-repo/packages/components/atoms/Input
-40 silly lifecycle No script for "version" in "@picsart/accordion", continuing
-41 silly independent for @picsart/accordion at /Users/sargis/Desktop/lerna-repo/packages/components/molecules/Accordion
-42 silly lifecycle No script for "version" in "@picsart/modal", continuing
-43 silly independent for @picsart/modal at /Users/sargis/Desktop/lerna-repo/packages/components/molecules/Modal
-44 silly lifecycle No script for "version" in "@picsart/button", continuing
-45 silly independent for @picsart/button at /Users/sargis/Desktop/lerna-repo/packages/components/atoms/Button
-46 silly independent writing new entry: "## 1.0.3 (2022-01-26)\n\n**Note:** Version bump only for package @picsart/input\n\n\n\n"
-47 silly independent writing new entry: "## 1.0.3 (2022-01-26)\n\n**Note:** Version bump only for package @picsart/modal\n\n\n\n"
-48 silly independent writing new entry: "## 1.0.3 (2022-01-26)\n\n**Note:** Version bump only for package @picsart/accordion\n\n\n\n"
-49 silly independent writing new entry: "# 1.3.0 (2022-01-26)\n\n\n### Features\n\n* **components/atoms:** add feature to button ([90a1384](https://github.com/har-sargis/lerna/commit/90a1384e04fa92286d88c3fe785e654d1ad9c714))\n\n\n\n"
-50 verbose independent wrote /Users/sargis/Desktop/lerna-repo/packages/components/atoms/Input/CHANGELOG.md
-51 verbose independent wrote /Users/sargis/Desktop/lerna-repo/packages/components/molecules/Modal/CHANGELOG.md
-52 verbose independent wrote /Users/sargis/Desktop/lerna-repo/packages/components/molecules/Accordion/CHANGELOG.md
+31 verbose independent increment 1.0.3 by patch
+32 info auto-confirmed
+33 info execute Skipping releases
+34 silly lifecycle No script for "preversion" in "@picsart/design-system", continuing
+35 silly lifecycle No script for "preversion" in "@picsart/button", continuing
+36 silly lifecycle No script for "preversion" in "@picsart/input", continuing
+37 silly lifecycle No script for "preversion" in "@picsart/accordion", continuing
+38 silly lifecycle No script for "preversion" in "@picsart/modal", continuing
+39 silly lifecycle No script for "version" in "@picsart/accordion", continuing
+40 silly independent for @picsart/accordion at /Users/sargis/Desktop/lerna-repo/packages/components/molecules/Accordion
+41 silly lifecycle No script for "version" in "@picsart/button", continuing
+42 silly independent for @picsart/button at /Users/sargis/Desktop/lerna-repo/packages/components/atoms/Button
+43 silly lifecycle No script for "version" in "@picsart/input", continuing
+44 silly independent for @picsart/input at /Users/sargis/Desktop/lerna-repo/packages/components/atoms/Input
+45 silly lifecycle No script for "version" in "@picsart/modal", continuing
+46 silly independent for @picsart/modal at /Users/sargis/Desktop/lerna-repo/packages/components/molecules/Modal
+47 silly independent writing new entry: "## 1.0.4 (2022-01-26)\n\n**Note:** Version bump only for package @picsart/accordion\n\n\n\n"
+48 silly independent writing new entry: "# 1.4.0 (2022-01-26)\n\n\n### Features\n\n* **components/atoms:** add feature to button ([90a1384](https://github.com/har-sargis/lerna/commit/90a1384e04fa92286d88c3fe785e654d1ad9c714))\n\n\n\n"
+49 silly independent writing new entry: "## 1.0.4 (2022-01-26)\n\n**Note:** Version bump only for package @picsart/input\n\n\n\n"
+50 silly independent writing new entry: "## 1.0.4 (2022-01-26)\n\n**Note:** Version bump only for package @picsart/modal\n\n\n\n"
+51 verbose independent wrote /Users/sargis/Desktop/lerna-repo/packages/components/molecules/Accordion/CHANGELOG.md
+52 verbose independent wrote /Users/sargis/Desktop/lerna-repo/packages/components/atoms/Input/CHANGELOG.md
 53 verbose independent wrote /Users/sargis/Desktop/lerna-repo/packages/components/atoms/Button/CHANGELOG.md
-54 silly lifecycle No script for "version" in "@picsart/design-system", continuing
-55 silly gitAdd [
-55 silly gitAdd   'packages/components/atoms/Input/package.json',
-55 silly gitAdd   'packages/components/molecules/Accordion/package.json',
-55 silly gitAdd   'packages/components/molecules/Modal/package.json',
-55 silly gitAdd   'packages/components/atoms/Button/package.json',
-55 silly gitAdd   'packages/components/atoms/Input/CHANGELOG.md',
-55 silly gitAdd   'packages/components/molecules/Modal/CHANGELOG.md',
-55 silly gitAdd   'packages/components/molecules/Accordion/CHANGELOG.md',
-55 silly gitAdd   'packages/components/atoms/Button/CHANGELOG.md'
-55 silly gitAdd ]
-56 silly gitCommit Publish
-56 silly gitCommit
-56 silly gitCommit  - @picsart/button@1.3.0
-56 silly gitCommit  - @picsart/input@1.0.3
-56 silly gitCommit  - @picsart/accordion@1.0.3
-56 silly gitCommit  - @picsart/modal@1.0.3
-57 verbose git [
-57 verbose git   'commit',
-57 verbose git   '-F',
-57 verbose git   '/private/var/folders/9r/c7kmkg0s2csdfk9c02pn6_3w0000gn/T/eabdc461-9529-46df-9043-21e70930ac2f/lerna-commit.txt'
-57 verbose git ]
-58 error Error: Command failed with exit code 1: git commit -F /private/var/folders/9r/c7kmkg0s2csdfk9c02pn6_3w0000gn/T/eabdc461-9529-46df-9043-21e70930ac2f/lerna-commit.txt
-58 error
-58 error > @picsart/design-system@1.0.0 test
-58 error > echo husky
-58 error
-58 error husky
-58 error cz-cli@4.2.4, cz-conventional-changelog@3.3.0
-58 error
-58 error ? Select the type of change that you're committing: (Use arrow keys)
-58 error ❯ feat:     A new feature
-58 error   fix:      A bug fix
-58 error   docs:     Documentation only changes
-58 error   style:    Changes that do not affect the meaning of the code (white-space, for
-58 error matting, missing semi-colons, etc)
-58 error   refactor: A code change that neither fixes a bug nor adds a feature
-58 error   perf:     A code change that improves performance
-58 error (Move up and down to reveal more choices)[41D[41C⧗   input: Publish
-58 error
-58 error  - @picsart/button@1.3.0
-58 error  - @picsart/input@1.0.3
-58 error  - @picsart/accordion@1.0.3
-58 error  - @picsart/modal@1.0.3
-58 error ✖   subject may not be empty [subject-empty]
-58 error ✖   type may not be empty [type-empty]
-58 error
-58 error ✖   found 2 problems, 0 warnings
-58 error ⓘ   Get help: https://github.com/conventional-changelog/commitlint/#what-is-commitlint
-58 error
-58 error husky - commit-msg hook exited with code 1 (error)
-58 error     at makeError (/Users/sargis/Desktop/lerna-repo/node_modules/execa/lib/error.js:60:11)
-58 error     at handlePromise (/Users/sargis/Desktop/lerna-repo/node_modules/execa/index.js:118:26)
-58 error     at processTicksAndRejections (internal/process/task_queues.js:95:5)
-58 error     at async Promise.all (index 0)
+54 verbose independent wrote /Users/sargis/Desktop/lerna-repo/packages/components/molecules/Modal/CHANGELOG.md
+55 silly lifecycle No script for "version" in "@picsart/design-system", continuing
+56 silly gitAdd [
+56 silly gitAdd   'packages/components/molecules/Accordion/package.json',
+56 silly gitAdd   'packages/components/atoms/Button/package.json',
+56 silly gitAdd   'packages/components/atoms/Input/package.json',
+56 silly gitAdd   'packages/components/molecules/Modal/package.json',
+56 silly gitAdd   'packages/components/molecules/Accordion/CHANGELOG.md',
+56 silly gitAdd   'packages/components/atoms/Input/CHANGELOG.md',
+56 silly gitAdd   'packages/components/atoms/Button/CHANGELOG.md',
+56 silly gitAdd   'packages/components/molecules/Modal/CHANGELOG.md'
+56 silly gitAdd ]
+57 silly gitCommit Publish
+57 silly gitCommit
+57 silly gitCommit  - @picsart/button@1.4.0
+57 silly gitCommit  - @picsart/input@1.0.4
+57 silly gitCommit  - @picsart/accordion@1.0.4
+57 silly gitCommit  - @picsart/modal@1.0.4
+58 verbose git [
+58 verbose git   'commit',
+58 verbose git   '-F',
+58 verbose git   '/private/var/folders/9r/c7kmkg0s2csdfk9c02pn6_3w0000gn/T/f8cafd1d-26e8-4b84-8f30-b1b7c1139a46/lerna-commit.txt'
+58 verbose git ]
+59 error Error: Command failed with exit code 1: git commit -F /private/var/folders/9r/c7kmkg0s2csdfk9c02pn6_3w0000gn/T/f8cafd1d-26e8-4b84-8f30-b1b7c1139a46/lerna-commit.txt
+59 error
+59 error > @picsart/design-system@1.0.0 test
+59 error > echo husky
+59 error
+59 error husky
+59 error cz-cli@4.2.4, cz-conventional-changelog@3.3.0
+59 error
+59 error ? Select the type of change that you're committing: (Use arrow keys)
+59 error ❯ feat:     A new feature
+59 error   fix:      A bug fix
+59 error   docs:     Documentation only changes
+59 error   style:    Changes that do not affect the meaning of the code (white-space, for
+59 error matting, missing semi-colons, etc)
+59 error   refactor: A code change that neither fixes a bug nor adds a feature
+59 error   perf:     A code change that improves performance
+59 error (Move up and down to reveal more choices)[41D[41C⧗   input: Publish
+59 error
+59 error  - @picsart/button@1.4.0
+59 error  - @picsart/input@1.0.4
+59 error  - @picsart/accordion@1.0.4
+59 error  - @picsart/modal@1.0.4
+59 error ✖   subject may not be empty [subject-empty]
+59 error ✖   type may not be empty [type-empty]
+59 error
+59 error ✖   found 2 problems, 0 warnings
+59 error ⓘ   Get help: https://github.com/conventional-changelog/commitlint/#what-is-commitlint
+59 error
+59 error husky - commit-msg hook exited with code 1 (error)
+59 error     at makeError (/Users/sargis/Desktop/lerna-repo/node_modules/execa/lib/error.js:60:11)
+59 error     at handlePromise (/Users/sargis/Desktop/lerna-repo/node_modules/execa/index.js:118:26)
+59 error     at processTicksAndRejections (internal/process/task_queues.js:95:5)
+59 error     at async Promise.all (index 0)
