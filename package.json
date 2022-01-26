@@ -29,7 +29,6 @@
     "@commitlint/cli": "^16.1.0",
     "@commitlint/config-conventional": "^16.0.0",
     "commitizen": "^4.2.4",
-    "commitlint": "^16.1.0",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^7.0.4",
     "lerna": "^4.0.0"
@@ -41,11 +40,11 @@
     "@picsart/accordion": "file:packages/components/molecules/Accordion",
     "@picsart/button": "file:packages/components/atoms/Button",
     "@picsart/input": "file:packages/components/atoms/Input",
-    "@piczart/modal": "file:packages/components/molecules/Modal"
+    "@picsart/modal": "file:packages/components/molecules/Modal"
   },
   "config": {
     "commitizen": {
-      "path": "cz-conventional-changelog"
+      "path": "./node_modules/cz-conventional-changelog"
     }
   }
 }
