@@ -15,7 +15,7 @@
   "private": true,
   "scripts": {
     "host:deps": "lerna link convert",
-    "bump:versions": "lerna version --conventional-commits",
+    "bump:versions": "lerna version --conventional-commits --yes",
     "create": "lerna create $npm_config_name $npm_config_path",
     "clean": "lerna clean",
     "command": "lerna run $npm_config_command",

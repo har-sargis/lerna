@@ -14,7 +14,7 @@
 7 verbose currentBranch main
 8 silly remoteBranchExists
 9 silly isBehindUpstream
-10 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 3
+10 silly isBehindUpstream main is behind origin/main by 0 commit(s) and ahead by 0
 11 silly hasTags
 12 verbose hasTags false
 13 info Assuming all packages changed
@@ -22,8 +22,8 @@
 15 verbose updated @picsart/input
 16 verbose updated @picsart/accordion
 17 verbose updated @picsart/modal
-18 verbose git-describe undefined => "43a0518"
-19 silly git-describe parsed => {"refCount":"6","sha":"43a0518","isDirty":false}
+18 verbose git-describe undefined => "a5b4388"
+19 silly git-describe parsed => {"refCount":"7","sha":"a5b4388","isDirty":false}
 20 silly independent for @picsart/button at /Users/sargis/Desktop/lerna-repo/packages/components/atoms/Button
 21 verbose getChangelogConfig using preset "conventional-changelog-angular"
 22 silly npa Result {
@@ -43,64 +43,64 @@
 22 silly npa }
 23 verbose getChangelogConfig Attempting to resolve preset "conventional-changelog-angular"
 24 info getChangelogConfig Successfully resolved preset "conventional-changelog-angular"
-25 verbose independent increment 1.1.0 by minor
+25 verbose independent increment 1.2.0 by minor
 26 silly independent for @picsart/input at /Users/sargis/Desktop/lerna-repo/packages/components/atoms/Input
-27 verbose independent increment 1.0.1 by patch
+27 verbose independent increment 1.0.2 by patch
 28 silly independent for @picsart/accordion at /Users/sargis/Desktop/lerna-repo/packages/components/molecules/Accordion
-29 verbose independent increment 1.0.1 by patch
+29 verbose independent increment 1.0.2 by patch
 30 silly independent for @picsart/modal at /Users/sargis/Desktop/lerna-repo/packages/components/molecules/Modal
-31 verbose independent increment 1.0.1 by patch
+31 verbose independent increment 1.0.2 by patch
 32 info execute Skipping releases
 33 silly lifecycle No script for "preversion" in "@picsart/design-system", continuing
 34 silly lifecycle No script for "preversion" in "@picsart/button", continuing
 35 silly lifecycle No script for "preversion" in "@picsart/input", continuing
 36 silly lifecycle No script for "preversion" in "@picsart/accordion", continuing
 37 silly lifecycle No script for "preversion" in "@picsart/modal", continuing
-38 silly lifecycle No script for "version" in "@picsart/accordion", continuing
-39 silly independent for @picsart/accordion at /Users/sargis/Desktop/lerna-repo/packages/components/molecules/Accordion
-40 silly lifecycle No script for "version" in "@picsart/input", continuing
-41 silly independent for @picsart/input at /Users/sargis/Desktop/lerna-repo/packages/components/atoms/Input
-42 silly lifecycle No script for "version" in "@picsart/button", continuing
-43 silly independent for @picsart/button at /Users/sargis/Desktop/lerna-repo/packages/components/atoms/Button
-44 silly lifecycle No script for "version" in "@picsart/modal", continuing
-45 silly independent for @picsart/modal at /Users/sargis/Desktop/lerna-repo/packages/components/molecules/Modal
-46 silly independent writing new entry: "## 1.0.2 (2022-01-26)\n\n**Note:** Version bump only for package @picsart/accordion\n\n\n\n"
-47 silly independent writing new entry: "## 1.0.2 (2022-01-26)\n\n**Note:** Version bump only for package @picsart/modal\n\n\n\n"
-48 silly independent writing new entry: "# 1.2.0 (2022-01-26)\n\n\n### Features\n\n* **components/atoms:** add feature to button ([90a1384](https://github.com/har-sargis/lerna/commit/90a1384e04fa92286d88c3fe785e654d1ad9c714))\n\n\n\n"
-49 silly independent writing new entry: "## 1.0.2 (2022-01-26)\n\n**Note:** Version bump only for package @picsart/input\n\n\n\n"
-50 verbose independent wrote /Users/sargis/Desktop/lerna-repo/packages/components/molecules/Accordion/CHANGELOG.md
-51 verbose independent wrote /Users/sargis/Desktop/lerna-repo/packages/components/atoms/Button/CHANGELOG.md
-52 verbose independent wrote /Users/sargis/Desktop/lerna-repo/packages/components/molecules/Modal/CHANGELOG.md
-53 verbose independent wrote /Users/sargis/Desktop/lerna-repo/packages/components/atoms/Input/CHANGELOG.md
+38 silly lifecycle No script for "version" in "@picsart/input", continuing
+39 silly independent for @picsart/input at /Users/sargis/Desktop/lerna-repo/packages/components/atoms/Input
+40 silly lifecycle No script for "version" in "@picsart/accordion", continuing
+41 silly independent for @picsart/accordion at /Users/sargis/Desktop/lerna-repo/packages/components/molecules/Accordion
+42 silly lifecycle No script for "version" in "@picsart/modal", continuing
+43 silly independent for @picsart/modal at /Users/sargis/Desktop/lerna-repo/packages/components/molecules/Modal
+44 silly lifecycle No script for "version" in "@picsart/button", continuing
+45 silly independent for @picsart/button at /Users/sargis/Desktop/lerna-repo/packages/components/atoms/Button
+46 silly independent writing new entry: "## 1.0.3 (2022-01-26)\n\n**Note:** Version bump only for package @picsart/input\n\n\n\n"
+47 silly independent writing new entry: "## 1.0.3 (2022-01-26)\n\n**Note:** Version bump only for package @picsart/modal\n\n\n\n"
+48 silly independent writing new entry: "## 1.0.3 (2022-01-26)\n\n**Note:** Version bump only for package @picsart/accordion\n\n\n\n"
+49 silly independent writing new entry: "# 1.3.0 (2022-01-26)\n\n\n### Features\n\n* **components/atoms:** add feature to button ([90a1384](https://github.com/har-sargis/lerna/commit/90a1384e04fa92286d88c3fe785e654d1ad9c714))\n\n\n\n"
+50 verbose independent wrote /Users/sargis/Desktop/lerna-repo/packages/components/atoms/Input/CHANGELOG.md
+51 verbose independent wrote /Users/sargis/Desktop/lerna-repo/packages/components/molecules/Modal/CHANGELOG.md
+52 verbose independent wrote /Users/sargis/Desktop/lerna-repo/packages/components/molecules/Accordion/CHANGELOG.md
+53 verbose independent wrote /Users/sargis/Desktop/lerna-repo/packages/components/atoms/Button/CHANGELOG.md
 54 silly lifecycle No script for "version" in "@picsart/design-system", continuing
 55 silly gitAdd [
-55 silly gitAdd   'packages/components/molecules/Accordion/package.json',
 55 silly gitAdd   'packages/components/atoms/Input/package.json',
-55 silly gitAdd   'packages/components/atoms/Button/package.json',
+55 silly gitAdd   'packages/components/molecules/Accordion/package.json',
 55 silly gitAdd   'packages/components/molecules/Modal/package.json',
-55 silly gitAdd   'packages/components/molecules/Accordion/CHANGELOG.md',
-55 silly gitAdd   'packages/components/atoms/Button/CHANGELOG.md',
+55 silly gitAdd   'packages/components/atoms/Button/package.json',
+55 silly gitAdd   'packages/components/atoms/Input/CHANGELOG.md',
 55 silly gitAdd   'packages/components/molecules/Modal/CHANGELOG.md',
-55 silly gitAdd   'packages/components/atoms/Input/CHANGELOG.md'
+55 silly gitAdd   'packages/components/molecules/Accordion/CHANGELOG.md',
+55 silly gitAdd   'packages/components/atoms/Button/CHANGELOG.md'
 55 silly gitAdd ]
 56 silly gitCommit Publish
 56 silly gitCommit
-56 silly gitCommit  - @picsart/button@1.2.0
-56 silly gitCommit  - @picsart/input@1.0.2
-56 silly gitCommit  - @picsart/accordion@1.0.2
-56 silly gitCommit  - @picsart/modal@1.0.2
+56 silly gitCommit  - @picsart/button@1.3.0
+56 silly gitCommit  - @picsart/input@1.0.3
+56 silly gitCommit  - @picsart/accordion@1.0.3
+56 silly gitCommit  - @picsart/modal@1.0.3
 57 verbose git [
 57 verbose git   'commit',
 57 verbose git   '-F',
-57 verbose git   '/private/var/folders/9r/c7kmkg0s2csdfk9c02pn6_3w0000gn/T/311417e2-874f-4279-9464-7b9f63bd55bf/lerna-commit.txt'
+57 verbose git   '/private/var/folders/9r/c7kmkg0s2csdfk9c02pn6_3w0000gn/T/eabdc461-9529-46df-9043-21e70930ac2f/lerna-commit.txt'
 57 verbose git ]
-58 error Error: Command failed with exit code 1: git commit -F /private/var/folders/9r/c7kmkg0s2csdfk9c02pn6_3w0000gn/T/311417e2-874f-4279-9464-7b9f63bd55bf/lerna-commit.txt
+58 error Error: Command failed with exit code 1: git commit -F /private/var/folders/9r/c7kmkg0s2csdfk9c02pn6_3w0000gn/T/eabdc461-9529-46df-9043-21e70930ac2f/lerna-commit.txt
 58 error
 58 error > @picsart/design-system@1.0.0 test
 58 error > echo husky
 58 error
 58 error husky
-58 error cz-cli@4.2.4, cz-conventional-changelog@3.2.0
+58 error cz-cli@4.2.4, cz-conventional-changelog@3.3.0
 58 error
 58 error ? Select the type of change that you're committing: (Use arrow keys)
 58 error ❯ feat:     A new feature
@@ -110,21 +110,12 @@
 58 error matting, missing semi-colons, etc)
 58 error   refactor: A code change that neither fixes a bug nor adds a feature
 58 error   perf:     A code change that improves performance
-58 error (Move up and down to reveal more choices)[41D[41C[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[1A[2K[G? Select the type of change that you're committing: feat:     A new feature[75D[75C
-58 error ? What is the scope of this change (e.g. component or file name): (press enter t
-58 error o skip) [1A[8D[88C[1B[2K[1A[2K[G? What is the scope of this change (e.g. component or file name): (press enter t
-58 error o skip) [1A[8D[88C
-58 error ? Write a short, imperative tense description of the change (max 94 chars):
-58 error  (0) [5D[5C[2K[1A[2K[G? Write a short, imperative tense description of the change (max 94 chars):
-58 error  (0)
-58 error >> subject is required[1A[22D[5C[1B[2K[1A[2K[1A[2K[G? Write a short, imperative tense description of the change (max 94 chars):
-58 error  (0)
-58 error >> subject is required[1A[22D[5C[1B⧗   input: Publish
+58 error (Move up and down to reveal more choices)[41D[41C⧗   input: Publish
 58 error
-58 error  - @picsart/button@1.2.0
-58 error  - @picsart/input@1.0.2
-58 error  - @picsart/accordion@1.0.2
-58 error  - @picsart/modal@1.0.2
+58 error  - @picsart/button@1.3.0
+58 error  - @picsart/input@1.0.3
+58 error  - @picsart/accordion@1.0.3
+58 error  - @picsart/modal@1.0.3
 58 error ✖   subject may not be empty [subject-empty]
 58 error ✖   type may not be empty [type-empty]
 58 error
