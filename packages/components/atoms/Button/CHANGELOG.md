@@ -14,7 +14,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [1.10.0](https://github.com/har-sargis/lerna/compare/@picsart/button@1.9.0...@picsart/button@1.10.0) (2022-01-26)
+# [1.10.0](https://github.com/har-sargis/lerna/compare/@aassaass/button@1.9.0...@aassaass/button@1.10.0) (2022-01-26)
 
 
 ### Features
@@ -26,7 +26,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [1.9.0](https://github.com/har-sargis/lerna/compare/@picsart/button@1.8.0...@picsart/button@1.9.0) (2022-01-26)
+# [1.9.0](https://github.com/har-sargis/lerna/compare/@aassaass/button@1.8.0...@aassaass/button@1.9.0) (2022-01-26)
 
 
 ### Features
@@ -37,7 +37,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [1.8.0](https://github.com/har-sargis/lerna/compare/@picsart/button@1.7.0...@picsart/button@1.8.0) (2022-01-26)
+# [1.8.0](https://github.com/har-sargis/lerna/compare/@aassaass/button@1.7.0...@aassaass/button@1.8.0) (2022-01-26)
 
 
 ### Features
@@ -48,7 +48,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [1.7.0](https://github.com/har-sargis/lerna/compare/@picsart/button@1.6.0...@picsart/button@1.7.0) (2022-01-26)
+# [1.7.0](https://github.com/har-sargis/lerna/compare/@aassaass/button@1.6.0...@aassaass/button@1.7.0) (2022-01-26)
 
 
 ### Features

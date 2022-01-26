@@ -1,5 +1,5 @@
 {
-  "name": "@picsart/accordion",
+  "name": "@aassaass/accordion",
   "version": "1.12.0",
   "description": "> TODO: description",
   "author": "har-sargis <har.sargis@gmail.com>",
@@ -24,6 +24,6 @@
     "url": "https://github.com/har-sargis/lerna/issues"
   },
   "dependencies": {
-    "@picsart/button": "^1.12.0"
+    "@aassaass/button": "file:../../atoms/Button"
   }
 }

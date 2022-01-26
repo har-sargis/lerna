@@ -1,5 +1,5 @@
 {
-  "name": "@picsart/design-system",
+  "name": "@aassaass/design-system",
   "description": "",
   "version": "1.0.0",
   "repository": {
@@ -15,7 +15,7 @@
   "private": true,
   "scripts": {
     "host:deps": "lerna link convert",
-    "bump:versions": "cross-env HUSKY=0 lerna version --conventional-commits --yes -m 'chore(release): publish %s'",
+    "bump:versions": "cross-env HUSKY=0 lerna version --conventional-commits --yes conventionalcommits --no-changelog -m 'chore(release): publish %s'",
     "create": "lerna create $npm_config_name $npm_config_path",
     "clean": "lerna clean",
     "command": "lerna run $npm_config_command",
@@ -40,10 +40,12 @@
     "directory": "dist"
   },
   "dependencies": {
-    "@picsart/accordion": "file:packages/components/molecules/Accordion",
-    "@picsart/button": "file:packages/components/atoms/Button",
-    "@picsart/input": "file:packages/components/atoms/Input",
-    "@picsart/modal": "file:packages/components/molecules/Modal"
+    "@aassaass/accordion": "file:packages/components/molecules/Accordion",
+    "@aassaass/button": "file:packages/components/atoms/Button",
+    "@aassaass/header": "file:packages/components/organisms/Header",
+    "@aassaass/input": "file:packages/components/atoms/Input",
+    "@aassaass/modal": "file:packages/components/molecules/Modal",
+    "@aassaass/page": "file:packages/components/organisms/Page"
   },
   "config": {
     "commitizen": {

@@ -5,21 +5,21 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [1.12.0](https://github.com/har-sargis/lerna/compare/v1.11.0...v1.12.0) (2022-01-26)
 
-**Note:** Version bump only for package @picsart/modal
+**Note:** Version bump only for package @aassaass/modal
 
 
 
 
 
-## [1.2.1](https://github.com/har-sargis/lerna/compare/@picsart/modal@1.2.0...@picsart/modal@1.2.1) (2022-01-26)
+## [1.2.1](https://github.com/har-sargis/lerna/compare/@aassaass/modal@1.2.0...@aassaass/modal@1.2.1) (2022-01-26)
 
-**Note:** Version bump only for package @picsart/modal
-
-
+**Note:** Version bump only for package @aassaass/modal
 
 
 
-# [1.2.0](https://github.com/har-sargis/lerna/compare/@picsart/modal@1.1.0...@picsart/modal@1.2.0) (2022-01-26)
+
+
+# [1.2.0](https://github.com/har-sargis/lerna/compare/@aassaass/modal@1.1.0...@aassaass/modal@1.2.0) (2022-01-26)
 
 
 ### Features
@@ -30,7 +30,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [1.1.0](https://github.com/har-sargis/lerna/compare/@picsart/modal@1.0.8...@picsart/modal@1.1.0) (2022-01-26)
+# [1.1.0](https://github.com/har-sargis/lerna/compare/@aassaass/modal@1.0.8...@aassaass/modal@1.1.0) (2022-01-26)
 
 
 ### Features
@@ -41,17 +41,17 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [1.0.8](https://github.com/har-sargis/lerna/compare/@picsart/modal@1.0.7...@picsart/modal@1.0.8) (2022-01-26)
+## [1.0.8](https://github.com/har-sargis/lerna/compare/@aassaass/modal@1.0.7...@aassaass/modal@1.0.8) (2022-01-26)
 
-**Note:** Version bump only for package @picsart/modal
-
-
+**Note:** Version bump only for package @aassaass/modal
 
 
 
-## [1.0.7](https://github.com/har-sargis/lerna/compare/@picsart/modal@1.0.6...@picsart/modal@1.0.7) (2022-01-26)
 
-**Note:** Version bump only for package @picsart/modal
+
+## [1.0.7](https://github.com/har-sargis/lerna/compare/@aassaass/modal@1.0.6...@aassaass/modal@1.0.7) (2022-01-26)
+
+**Note:** Version bump only for package @aassaass/modal
 
 
 
@@ -59,7 +59,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 1.0.6 (2022-01-26)
 
-**Note:** Version bump only for package @picsart/modal
+**Note:** Version bump only for package @aassaass/modal
 
 
 
@@ -67,7 +67,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 1.0.5 (2022-01-26)
 
-**Note:** Version bump only for package @picsart/modal
+**Note:** Version bump only for package @aassaass/modal
 
 
 
@@ -75,7 +75,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 1.0.4 (2022-01-26)
 
-**Note:** Version bump only for package @picsart/modal
+**Note:** Version bump only for package @aassaass/modal
 
 
 
@@ -83,7 +83,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 1.0.3 (2022-01-26)
 
-**Note:** Version bump only for package @picsart/modal
+**Note:** Version bump only for package @aassaass/modal
 
 
 
@@ -91,7 +91,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 1.0.2 (2022-01-26)
 
-**Note:** Version bump only for package @picsart/modal
+**Note:** Version bump only for package @aassaass/modal
 
 
 
@@ -99,4 +99,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## 1.0.1 (2022-01-26)
 
-**Note:** Version bump only for package @picsart/modal
+**Note:** Version bump only for package @aassaass/modal
