@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "rootDir": "./packages/**/*",
+    "rootDir": "./packages/",
     "outDir": "./dist/",
     "esModuleInterop": true,
     "declaration": true,
@@ -24,17 +24,6 @@
     "jsx": "react",
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
-    "paths": {
-      "atoms": [
-        "./packages/atoms"
-      ],
-      "molecules": [
-        "./packages/molecules"
-      ],
-      "organisms": [
-        "./packages/organisms"
-      ],
-    }
   },
   "include": [
     "packages/**/*"

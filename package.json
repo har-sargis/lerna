@@ -26,21 +26,35 @@
     "bootstrap": "lerna bootstrap",
     "hoist:packages": "lerna bootstrap --hoist",
     "wizard": "npx lerna-wizard",
-    "test": "echo husky"
+    "test": "echo husky",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "eslintIgnore": [
     "packages/**/*.test.js"
   ],
   "devDependencies": {
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/preset-react": "^7.16.5",
     "@commitlint/cli": "^16.1.0",
     "@commitlint/config-conventional": "^16.0.0",
+    "@storybook/addon-actions": "^6.4.14",
+    "@storybook/addon-essentials": "^6.4.14",
+    "@storybook/addon-links": "^6.4.14",
+    "@storybook/builder-webpack5": "^6.4.14",
+    "@storybook/manager-webpack5": "^6.4.14",
+    "@storybook/react": "^6.4.14",
+    "@types/jest": "^27.0.3",
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.8.0",
+    "@typescript-eslint/parser": "^5.8.0",
+    "babel-loader": "^8.2.3",
     "commitizen": "^4.2.4",
     "cross-env": "^7.0.3",
+    "css-loader": "^6.5.1",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint-webpack-plugin": "^3.1.1",
-    "husky": "^7.0.4",
-    "lerna": "^4.0.0",
-    "lerna-wizard": "^1.1.1",
     "eslint": "^8.5.0",
     "eslint-config-airbnb": "^19.0.2",
     "eslint-plugin-babel": "^5.3.1",
@@ -50,23 +64,17 @@
     "eslint-plugin-no-unsanitized": "^4.0.1",
     "eslint-plugin-react": "^7.27.1",
     "eslint-plugin-react-hooks": "^4.3.0",
-    "css-loader": "^6.5.1",
-    "typescript": "^4.5.4",
+    "eslint-webpack-plugin": "^3.1.1",
     "file-loader": "^6.2.0",
     "html-loader": "^3.0.1",
     "html-webpack-plugin": "^5.5.0",
-    "webpack-cli": "^4.9.2",
+    "husky": "^7.0.4",
+    "lerna": "^4.0.0",
+    "lerna-wizard": "^1.1.1",
+    "typescript": "^4.5.4",
     "webpack": "^5.65.0",
-    "webpack-dev-server": "^4.6.0",
-    "@types/jest": "^27.0.3",
-    "@types/react": "^17.0.37",
-    "@types/react-dom": "^17.0.11",
-    "@typescript-eslint/eslint-plugin": "^5.8.0",
-    "@typescript-eslint/parser": "^5.8.0",
-    "babel-loader": "^8.2.3",
-    "@babel/core": "^7.16.5",
-    "@babel/preset-env": "^7.16.5",
-    "@babel/preset-react": "^7.16.5"
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.6.0"
   },
   "publishConfig": {
     "directory": "dist"
@@ -83,5 +91,21 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "eslintConfig": {
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
